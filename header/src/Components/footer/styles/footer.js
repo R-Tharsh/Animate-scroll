@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 80px 60px;
+  background: #021e39;
   background: #fff @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -33,7 +34,7 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: black;
+  color: #fff;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
